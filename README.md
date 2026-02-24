@@ -1,4 +1,4 @@
-# Zama-Distribution-SQL   
+# Zama-Distribution-SQL  
 This is the Zama Holders distribution SQL code used to generate query on Dune Analysis. 
 -- ZAMA Holder Distribution & Top Holders (Post-TGE Analysis)
 -- Query 1: Tracks top holders across Ethereum and BSC
