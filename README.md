@@ -18,7 +18,7 @@ WITH zama_transfers AS (
     
     -- Ethereum transfers (outgoing)
     SELECT  
-        'Ethereum' AS chain 
+        'Ethereum' AS chain  
         , "from" AS holder
         , -CAST(value AS DOUBLE) AS amount
         , evt_block_time AS transfer_time
