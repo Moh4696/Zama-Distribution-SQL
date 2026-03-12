@@ -17,7 +17,7 @@ WITH zama_transfers AS (
     UNION ALL
     
     -- Ethereum transfers (outgoing)
-    SELECT 
+    SELECT  
         'Ethereum' AS chain
         , "from" AS holder
         , -CAST(value AS DOUBLE) AS amount
