@@ -5,7 +5,7 @@ This is the Zama Holders distribution SQL code used to generate query on Dune An
 -- TGE Date: February 2, 2026
 
 WITH zama_transfers AS (
-    -- Ethereum transfers (incoming) 
+    -- Ethereum transfers (incoming)  
     SELECT 
         'Ethereum' AS chain
         , "to" AS holder
