@@ -14,7 +14,7 @@ WITH zama_transfers AS (
     FROM erc20_ethereum.evt_Transfer
     WHERE contract_address = 0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3
     
-    UNION ALL 
+    UNION ALL  
     
     -- Ethereum transfers (outgoing)
     SELECT  
